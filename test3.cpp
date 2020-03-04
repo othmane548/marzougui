@@ -9,5 +9,7 @@ int main()
 	std::cout<< "ilyes\n";
 
 	std::cout << "salut !";
+	
+	std::cout<< "au revoir";
 }
 
