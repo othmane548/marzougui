@@ -1,0 +1,10 @@
+pour les question du TP :
+
+1) Priority Queue car j ai une file d'attente et les objets sont priorisés
+
+2) vector<ElementFacturable> car la classe contient les deux sous classe heritieres
+
+remarque
+pour la solution d apres moi:
+ est de ne pas utiliser le vecteur<ElementFacturable> 
+mais du garder un vecteur <int> sur le côté pour garder la fonction virtuelle pure 
