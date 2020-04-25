@@ -65,7 +65,7 @@ int demander_quantitee() { //fonction pour demander la quantité souhaité (nomb
     return quantitee;
 }
 
-double taxes(ElementFacturable const& Element, double prix)  //Présente le véhicule passé en argument
+double taxes(ElementFacturable const& Element, double prix)  // passé en argument
 {
     return Element.applique_taxes(prix);
 }
@@ -83,7 +83,7 @@ int main()
     double Delta_facture = 0.0;
     priority_queue<int> queue_int;
     // de type int car on a juste une priorité entre 1 et 4 à gérer (vector<int> donc ...)
-    // on pourrait aussi faire un vector<ElementFacturable> mais ca pourrait etre moin compréhensible
+   
 
     while (continue_facture)
     {
